@@ -8,25 +8,25 @@ const routes = [
     //配置路由
   {
     path:"/home",
-    name:"首页",
+    name:"home",
     component:Home,
     meta:{show:true}
   },
   {
     path:"/login",
-    name:"登陆",
+    name:"login",
     component:Login,
     meta:{show:false}
   },
   {
     path:"/register",
-    name:"注册",
+    name:"register",
     component:Register,
     meta:{show:false}
   },
   {
-    path:"/search",
-    name:"搜索页",
+    path:"/search/:keyword",
+    name:"search",
     component:Search,
     meta:{show:true}
   },
